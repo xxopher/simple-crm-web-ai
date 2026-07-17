@@ -6,6 +6,8 @@
 .heading {
   font-size: var(--text-md);
   font-weight: var(--weight-semibold);
+  font-family: var(--font-display);
+  letter-spacing: 0.03em;
   color: var(--text-strong);
   margin-bottom: var(--space-1);
 }
@@ -24,7 +26,7 @@
 
 .statCard {
   background: var(--surface-card);
-  border: 1px solid var(--border-subtle);
+  border: 2px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: var(--space-5) var(--space-6);
   box-shadow: var(--shadow-sm);
@@ -35,7 +37,7 @@
   font-weight: var(--weight-medium);
   color: var(--text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   margin-bottom: var(--space-2);
 }
 

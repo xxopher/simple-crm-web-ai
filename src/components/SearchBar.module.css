@@ -6,11 +6,14 @@
 .searchBar input {
   width: 100%;
   padding: var(--space-2) var(--space-3);
-  border: 1px solid var(--border-default);
+  border: 2px solid var(--border-default);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-md);
   color: var(--text-strong);
+  background: var(--surface-card);
+  transition: border-color var(--duration-fast) var(--ease-standard),
+              box-shadow var(--duration-fast) var(--ease-standard);
 }
 
 .searchBar input:focus {

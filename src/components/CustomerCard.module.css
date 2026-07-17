@@ -1,7 +1,7 @@
 /* src/components/CustomerCard.module.css */
 .card {
   background: var(--surface-card);
-  border: 1px solid var(--border-subtle);
+  border: 2px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: var(--space-5);
   box-shadow: var(--shadow-sm);
@@ -47,6 +47,8 @@
 .name {
   font-size: var(--text-md);
   font-weight: var(--weight-semibold);
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
   color: var(--text-strong);
   line-height: var(--leading-snug);
 }
@@ -59,6 +61,8 @@
   border-radius: var(--radius-pill);
   font-size: var(--text-xs);
   font-weight: var(--weight-medium);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   flex: none;
 }
 
@@ -98,7 +102,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: var(--space-3);
-  border-top: 1px solid var(--border-subtle);
+  border-top: 2px solid var(--border-subtle);
 }
 
 .tags {
@@ -120,7 +124,7 @@
   padding: var(--space-1) var(--space-3);
   background: transparent;
   color: var(--danger-500);
-  border: 1px solid var(--danger-500);
+  border: 2px solid var(--danger-500);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-xs);
@@ -138,5 +142,5 @@
 
 .cardSelected {
   border-color: var(--primary-500);
-  box-shadow: var(--shadow-md), 0 0 0 2px var(--primary-100);
+  box-shadow: var(--shadow-md), var(--ring);
 }

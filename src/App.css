@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: var(--space-6);
-  background: white;
+  background: var(--surface-card);
   min-height: 100vh;
 }
 
@@ -20,11 +20,12 @@
 
 .add-customer-form {
   background: var(--surface-page);
-  border: 1px solid var(--border-subtle);
+  border: 2px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: var(--space-6);
   margin-bottom: var(--space-8);
   max-width: 480px;
+  box-shadow: var(--shadow-sm);
 }
 
 .add-customer-form h3 {
@@ -47,7 +48,7 @@
 .form-field input,
 .form-field select {
   padding: var(--space-2) var(--space-3);
-  border: 1px solid var(--border-default);
+  border: 2px solid var(--border-default);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-md);
@@ -66,7 +67,7 @@
   padding: var(--space-2) var(--space-5);
   background: var(--action-primary);
   color: var(--text-on-primary);
-  border: none;
+  border: 2px solid var(--primary-700);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
@@ -87,9 +88,9 @@
 
 .tag-toggle {
   padding: 4px 12px;
-  border: 1px solid var(--border-default);
+  border: 2px solid var(--border-default);
   border-radius: var(--radius-pill);
-  background: white;
+  background: var(--surface-card);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   color: var(--text-body);
@@ -101,7 +102,7 @@
 
 .tag-toggle-active {
   background: var(--primary-100);
-  border-color: var(--primary-500);
+  border-color: var(--primary-700);
   color: var(--primary-700);
   font-weight: var(--weight-medium);
 }
@@ -152,8 +153,8 @@
 
 .status-message.error {
   color: var(--danger-600);
-  background: var(--danger-50, #f9eeed);
-  border: 1px solid var(--danger-100, #f1d6d3);
+  background: var(--danger-50);
+  border: 2px solid var(--danger-100);
 }
 
 .filter-bar {
@@ -164,7 +165,7 @@
 
 .filter-btn {
   padding: var(--space-1) var(--space-4);
-  border: 1px solid var(--border-default);
+  border: 2px solid var(--border-default);
   border-radius: var(--radius-pill);
   background: var(--surface-card);
   font-family: var(--font-sans);
@@ -179,7 +180,7 @@
 
 .filter-btn-active {
   background: var(--primary-100);
-  border-color: var(--primary-500);
+  border-color: var(--primary-700);
   color: var(--primary-700);
   font-weight: var(--weight-medium);
 }
@@ -196,7 +197,7 @@
   padding: var(--space-2) var(--space-5);
   background: var(--action-primary);
   color: var(--text-on-primary);
-  border: none;
+  border: 2px solid var(--primary-700);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
@@ -216,6 +217,7 @@
   color: var(--text-muted);
   font-size: var(--text-sm);
   text-decoration: none;
+  font-weight: var(--weight-medium);
 }
 
 .back-link:hover {

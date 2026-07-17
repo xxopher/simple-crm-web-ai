@@ -15,4 +15,5 @@
   padding: var(--space-6);
   min-width: 0;
   overflow-y: auto;
+  background: var(--surface-page);
 }

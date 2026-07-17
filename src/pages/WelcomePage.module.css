@@ -13,7 +13,7 @@
   max-width: 384px;
   text-align: center;
   background: var(--surface-card);
-  border: 1px solid var(--border-subtle);
+  border: 2px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: var(--space-8);
   box-shadow: var(--shadow-md);
@@ -45,6 +45,9 @@
 .heading {
   font-size: var(--text-md);
   font-weight: var(--weight-semibold);
+  font-family: var(--font-display);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: var(--text-strong);
   margin-bottom: var(--space-2);
 }
@@ -61,7 +64,7 @@
   padding: var(--space-3);
   background: var(--action-primary);
   color: var(--text-on-primary);
-  border: none;
+  border: 2px solid var(--primary-700);
   border-radius: var(--radius-md);
   font-family: var(--font-sans);
   font-size: var(--text-md);
