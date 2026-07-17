@@ -4,6 +4,7 @@
 }
 
 .heading {
+  font-family: var(--font-display);
   font-size: var(--text-md);
   font-weight: var(--weight-semibold);
   color: var(--text-strong);
@@ -24,7 +25,7 @@
 
 .statCard {
   background: var(--surface-card);
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--border-default);
   border-radius: var(--radius-lg);
   padding: var(--space-5) var(--space-6);
   box-shadow: var(--shadow-sm);
@@ -40,6 +41,7 @@
 }
 
 .statValue {
+  font-family: var(--font-display);
   font-size: 2rem;
   font-weight: var(--weight-semibold);
   color: var(--text-strong);

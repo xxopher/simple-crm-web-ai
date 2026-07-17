@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: var(--space-6);
-  background: white;
+  background: var(--surface-page);
   min-height: 100vh;
 }
 
@@ -19,8 +19,8 @@
 }
 
 .add-customer-form {
-  background: var(--surface-page);
-  border: 1px solid var(--border-subtle);
+  background: var(--surface-card);
+  border: 1px solid var(--border-default);
   border-radius: var(--radius-lg);
   padding: var(--space-6);
   margin-bottom: var(--space-8);
@@ -71,6 +71,7 @@
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
+  letter-spacing: 0.02em;
   cursor: pointer;
   transition: background var(--duration-fast) var(--ease-standard);
 }
@@ -89,7 +90,7 @@
   padding: 4px 12px;
   border: 1px solid var(--border-default);
   border-radius: var(--radius-pill);
-  background: white;
+  background: var(--surface-card);
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   color: var(--text-body);
@@ -133,6 +134,7 @@
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
+  letter-spacing: 0.02em;
   cursor: pointer;
   margin-bottom: var(--space-6);
   transition: background var(--duration-fast) var(--ease-standard);
@@ -201,6 +203,7 @@
   font-family: var(--font-sans);
   font-size: var(--text-sm);
   font-weight: var(--weight-medium);
+  letter-spacing: 0.02em;
   text-decoration: none;
   cursor: pointer;
   transition: background var(--duration-fast) var(--ease-standard);
