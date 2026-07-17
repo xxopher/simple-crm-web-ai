@@ -40,4 +40,3 @@ There is currently only **one theme** (no dark-mode tokens exist yet) — don't 
 
 - Run `git diff --stat` and confirm only CSS files and/or `index.html` changed — if anything else shows up, that's a bug, revert it.
 - Check the diff covers all 12 module files, `App.css`, and `index.css` — a cohesive reskin touches (or explicitly confirms as already fine) every one of them, not just the token file.
-- Start the dev server and check at least one list view (e.g. the dashboard or customers list) and one detail view — layouts shouldn't break, text shouldn't clip, buttons should still read as clickable.
