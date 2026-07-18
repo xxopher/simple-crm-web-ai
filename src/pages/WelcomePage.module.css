@@ -12,7 +12,7 @@
   width: 100%;
   max-width: 384px;
   text-align: center;
-  background: var(--surface-card);
+  background: linear-gradient(145deg, var(--surface-card) 0%, rgba(247, 232, 191, 0.22) 100%);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: var(--space-8);
@@ -28,12 +28,13 @@
 .logoMark {
   width: 40px;
   height: 40px;
-  background: var(--primary-500);
+  background: linear-gradient(135deg, var(--primary-500) 0%, var(--primary-300) 100%);
   border-radius: var(--radius-md);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4px;
   padding: 7px;
+  box-shadow: 0 10px 24px rgba(182, 138, 43, 0.24);
 }
 
 .logoMark span {

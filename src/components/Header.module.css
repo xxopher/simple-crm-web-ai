@@ -4,9 +4,11 @@
   align-items: center;
   justify-content: space-between;
   padding: var(--space-4) var(--space-6);
-  background: var(--surface-card);
-  border-bottom: 1px solid var(--border-subtle);
+  background: rgba(252, 251, 248, 0.92);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
   margin-bottom: var(--space-6);
+  box-shadow: var(--shadow-sm);
 }
 
 .title {

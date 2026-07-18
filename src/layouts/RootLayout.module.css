@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 240px 1fr;
   height: 100vh;
+  background: transparent;
 }
 
 @media (max-width: 768px) {
@@ -15,4 +16,5 @@
   padding: var(--space-6);
   min-width: 0;
   overflow-y: auto;
+  background: transparent;
 }

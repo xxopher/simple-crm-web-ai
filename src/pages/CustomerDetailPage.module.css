@@ -1,7 +1,7 @@
 /* src/pages/CustomerDetailPage.module.css */
 .panel {
   max-width: 480px;
-  background: var(--surface-card);
+  background: linear-gradient(145deg, var(--surface-card) 0%, rgba(247, 232, 191, 0.18) 100%);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: var(--space-5);
@@ -131,7 +131,7 @@
 }
 
 .editButton:hover {
-  background: var(--primary-50, var(--surface-hover));
+  background: var(--primary-50);
 }
 
 .deleteButton {
@@ -149,5 +149,5 @@
 }
 
 .deleteButton:hover {
-  background: var(--danger-50, #f9eeed);
+  background: var(--danger-50);
 }
